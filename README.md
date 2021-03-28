@@ -17,6 +17,20 @@ let add = fn(x, y) {
 let results = add(five, ten);
 ```
 
+## REPL
+
+This tool comes with a REPL to test commands out. Currently it only prints the lexed code. Run the REPL with the following command:
+
+```
+$ go run main.go
+```
+
+The REPL can be exited with 
+
+```
+>$ exit
+```
+
 ## Tests
 
 The book I am working off of also includes tests using the standard way of unit testing in golang. Simply run:
