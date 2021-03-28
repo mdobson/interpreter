@@ -1,0 +1,14 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  clean:
+    cmds:
+      - rm -rf build
+    silent: true
+  
+  build:
+    cmds:
+      - mkdir -p build
+      - go build -o build/repl main.go
